@@ -12,13 +12,18 @@ body, html {
   margin-bottom: 2rem;
 }
 
-.range {
-  /* cross browser compat resets */
-  -webkit-appearance: none;
-  width: 100%;
-  background: transparent;
+.range__input-container {
+  margin: 20vh 0;
 }
-.range::-webkit-slider-thumb {
+.range__input {
+  /* cross browser compat resets */
+  -moz-transform: rotate(90deg);
+  -webkit-appearance: none;
+  background: transparent;
+  transform: rotate(90deg);
+  width: 40vh;
+}
+.range__input::-webkit-slider-thumb {
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
   border: 1px solid #000000;
   height: 36px;
@@ -29,7 +34,7 @@ body, html {
   -webkit-appearance: none;
   margin-top: -14px;
 }
-.range::-moz-range-thumb {
+.range__input::-moz-range-thumb {
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
   border: 1px solid #000000;
   height: 36px;
@@ -38,7 +43,7 @@ body, html {
   background: #ffffff;
   cursor: pointer;
 }
-.range::-webkit-slider-runnable-track {
+.range__input::-webkit-slider-runnable-track {
   width: 100%;
   height: 8.4px;
   cursor: pointer;
@@ -47,10 +52,10 @@ body, html {
   border-radius: 1.3px;
   border: 0.2px solid #010101;
 }
-.range:focus::-webkit-slider-runnable-track {
+.range__input:focus::-webkit-slider-runnable-track {
   background: #367ebd;
 }
-.range::-moz-range-track {
+.range__input::-moz-range-track {
   width: 100%;
   height: 8.4px;
   cursor: pointer;

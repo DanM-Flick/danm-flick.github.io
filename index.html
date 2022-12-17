@@ -27,10 +27,11 @@
     <h1>Interaction playground</h1>
   </header>
   <main class="main">
-    <section class="section">
+    <section class="section range">
       <code>&lt;input type="range"&gt;</code>
-      <label for="vol">Volume (between 0 and 50):</label>
-      <input class="range" type="range" id="vol" name="vol" min="0" max="50">
+      <div class="range__input-container">
+        <input class="range__input" type="range" id="vol" name="vol" min="0" max="100" value="0" oninput="this.className=`range__input range__value--${this.value}`">
+      </div>
     </section>
     <section class="section">
       <code>&lt;input type="button"&gt;</code>
