@@ -1,0 +1,17 @@
+{
+  "name": "danm-flick-github-pages",
+  "version": "1.0.0",
+  "description": "Personal playground for trying interaction things",
+  "author": "Flick Electric",
+  "repository": "https://github.com/DanM-Flick/danm-flick.github.io",
+  "license": "UNLICENSED",
+  "scripts": {
+    "watch": "sass --watch stylesheets/sass/main.scss:stylesheets/main.css",
+    "build": "sass stylesheets/sass/main.scss:stylesheets/main.css --style compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.57.0"
+  },
+  "dependencies": {
+  }
+}
