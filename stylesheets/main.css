@@ -1,68 +1,18 @@
-body, html {
-  font-family: sans-serif;
-  margin: 0;
-}
+/* Error: expected "+", "-", "*", "/", or ")".
+ *    ,
+ * 14 |     $bottom-white-bar-value-2: calc(50 % (100 - #{$i}));
+ *    |                                        ^
+ *    '
+ *   stylesheets/sass/inputs/range.scss 14:40  @import
+ *   stylesheets/sass/main.scss 15:9           root stylesheet */
 
-.main,
-.header {
-  margin: 1rem;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "+", "-", "*", "/", or ")".\a    \2577 \a 14 \2502      $bottom-white-bar-value-2: calc(50 % (100 - #{$i}));\a    \2502                                         ^\a    \2575 \a   stylesheets/sass/inputs/range.scss 14:40  @import\a   stylesheets/sass/main.scss 15:9           root stylesheet';
 }
-
-.section {
-  margin-bottom: 2rem;
-}
-
-.range__input-container {
-  margin: 20vh 0;
-}
-.range__input {
-  /* cross browser compat resets */
-  -moz-transform: rotate(90deg);
-  -webkit-appearance: none;
-  background: transparent;
-  transform: rotate(90deg);
-  width: 40vh;
-}
-.range__input::-webkit-slider-thumb {
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  border: 1px solid #000000;
-  height: 36px;
-  width: 16px;
-  border-radius: 3px;
-  background: #ffffff;
-  cursor: pointer;
-  -webkit-appearance: none;
-  margin-top: -14px;
-}
-.range__input::-moz-range-thumb {
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  border: 1px solid #000000;
-  height: 36px;
-  width: 16px;
-  border-radius: 3px;
-  background: #ffffff;
-  cursor: pointer;
-}
-.range__input::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 8.4px;
-  cursor: pointer;
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  background: #3071a9;
-  border-radius: 1.3px;
-  border: 0.2px solid #010101;
-}
-.range__input:focus::-webkit-slider-runnable-track {
-  background: #367ebd;
-}
-.range__input::-moz-range-track {
-  width: 100%;
-  height: 8.4px;
-  cursor: pointer;
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  background: #3071a9;
-  border-radius: 1.3px;
-  border: 0.2px solid #010101;
-}
-
-/*# sourceMappingURL=main.css.map */

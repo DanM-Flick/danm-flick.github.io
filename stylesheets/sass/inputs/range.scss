@@ -1,22 +1,41 @@
+$min-slider-value: 1;
+$max-slider-value: 100;
+
+@for $i from $min-slider-value through $max-slider-value {
+  .range__value--#{$i} {
+    // for values 1 - 50: 50;
+    // for values 50 - 100: 1..50;
+    // top-white: 0 - 50 from 0 - 50
+    // top-black: 50 - 0 from 0 - 50
+    // bottom-black 0 - 50 from 50 - 100
+    // bottom-white 50 - 0 from 50 - 100
+    $top-bar-value: calc(50% - #{$i+'%'});
+    // something to do with modulo?
+    $bottom-white-bar-value-2: calc(50 % (100 - #{$i}));
+    $bottom-white-bar-value: calc(50% + #{'-'$bottom-white-bar-value-2+'%'});
+    $bottom-bar-value: calc(-50% + #{$i+'%'});
+    font-weight: $top-bar-value;
+    font-size: $bottom-bar-value;
+    &::-webkit-slider-runnable-track {
+      background: linear-gradient(90deg,#fff #{$i+'%'}, #000 $top-bar-value, #000 $bottom-bar-value, #fff $bottom-bar-white-value) !important;
+    }
+  }
+}
+
 @mixin thumb {
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  border: 1px solid #000000;
-  height: 36px;
-  width: 16px;
-  border-radius: 3px;
-  background: #ffffff;
+  background-image: url("../images/ball.svg");
+  transform: rotate(270deg);
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
   cursor: pointer;
 }
 
 @mixin track {
-  width: 100%;
-  height: 8.4px;
+  height: 1rem;
   cursor: pointer;
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  background: #3071a9;
-  border-radius: 1.3px;
-  border: 0.2px solid #010101;
 }
+
 .range {
   &__input-container {
     margin: 20vh 0;
@@ -33,7 +52,13 @@
     &::-webkit-slider-thumb {
       @include thumb;
       -webkit-appearance: none;
-      margin-top: -14px;
+      margin-top: -1.5rem;
+      margin-left: -1rem;
+    }
+
+    &:active::-webkit-slider-thumb {
+      background-image: none;
+      background-color: red;
     }
 
     &::-moz-range-thumb {
@@ -42,10 +67,6 @@
     // ---Track---
     &::-webkit-slider-runnable-track {
       @include track;
-    }
-
-    &:focus::-webkit-slider-runnable-track {
-      background: #367ebd;
     }
 
     &::-moz-range-track {
