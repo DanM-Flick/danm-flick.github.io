@@ -1,4 +1,4 @@
-$min-slider-value: 1;
+$min-slider-value: 2;
 $lower-mid-slider-value: 50;
 $mid-slider-value: 51;
 $max-slider-value: 100;
@@ -13,9 +13,10 @@ $max-slider-value: 100;
 
 @for $i from $mid-slider-value through $max-slider-value {
   .range__value--#{$i} {
-    $bottom-bar-value: calc(50% + #{$i+'%'});
+    $bottom-bar-black-value: calc(#{$i+'%'} - 50%);
+    $bottom-bar-value: calc(#{$i+'%'} - 2%);
     &::-webkit-slider-runnable-track {
-      background: linear-gradient(90deg,#fff, #fff #{$i+'%'},  #000 #{$i+'%'}, #000) !important;
+      background: linear-gradient(90deg,#fff, #fff 50%, #000 50%, #000 $bottom-bar-black-value, #000 $bottom-bar-value, #fff $bottom-bar-value,#fff) !important;
     }
   }
 }
@@ -31,7 +32,7 @@ $max-slider-value: 100;
 
 @mixin track {
   height: 1rem;
-  background: linear-gradient(90deg,#000, #000 50%, #fff 50%, #fff);
+  background: linear-gradient(90deg,#fff, #fff 5%, #000 5%, #000 50%, #fff 50%, #fff);
   cursor: pointer;
 }
 
@@ -52,7 +53,6 @@ $max-slider-value: 100;
       @include thumb;
       -webkit-appearance: none;
       margin-top: -1.5rem;
-      margin-left: -1rem;
     }
 
     &:active::-webkit-slider-thumb {
