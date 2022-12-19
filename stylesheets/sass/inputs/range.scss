@@ -1,23 +1,21 @@
 $min-slider-value: 1;
+$lower-mid-slider-value: 50;
+$mid-slider-value: 51;
 $max-slider-value: 100;
 
-@for $i from $min-slider-value through $max-slider-value {
+@for $i from $min-slider-value through $lower-mid-slider-value {
   .range__value--#{$i} {
-    // for values 1 - 50: 50;
-    // for values 50 - 100: 1..50;
-    // top-white: 0 - 50 from 0 - 50
-    // top-black: 50 - 0 from 0 - 50
-    // bottom-black 0 - 50 from 50 - 100
-    // bottom-white 50 - 0 from 50 - 100
-    $top-bar-value: calc(50% - #{$i+'%'});
-    // something to do with modulo?
-    $bottom-white-bar-value-2: calc(50 % (100 - #{$i}));
-    $bottom-white-bar-value: calc(50% + #{'-'$bottom-white-bar-value-2+'%'});
-    $bottom-bar-value: calc(-50% + #{$i+'%'});
-    font-weight: $top-bar-value;
-    font-size: $bottom-bar-value;
     &::-webkit-slider-runnable-track {
-      background: linear-gradient(90deg,#fff #{$i+'%'}, #000 $top-bar-value, #000 $bottom-bar-value, #fff $bottom-bar-white-value) !important;
+      background: linear-gradient(90deg,#fff, #fff #{$i+'%'}, #000 #{$i+'%'}, #000 50%, #fff 50%, #fff) !important;
+    }
+  }
+}
+
+@for $i from $mid-slider-value through $max-slider-value {
+  .range__value--#{$i} {
+    $bottom-bar-value: calc(50% + #{$i+'%'});
+    &::-webkit-slider-runnable-track {
+      background: linear-gradient(90deg,#fff, #fff #{$i+'%'},  #000 #{$i+'%'}, #000) !important;
     }
   }
 }
@@ -33,6 +31,7 @@ $max-slider-value: 100;
 
 @mixin track {
   height: 1rem;
+  background: linear-gradient(90deg,#000, #000 50%, #fff 50%, #fff);
   cursor: pointer;
 }
 

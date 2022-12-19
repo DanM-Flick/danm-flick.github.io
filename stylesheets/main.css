@@ -1,18 +1,460 @@
-/* Error: expected "+", "-", "*", "/", or ")".
- *    ,
- * 14 |     $bottom-white-bar-value-2: calc(50 % (100 - #{$i}));
- *    |                                        ^
- *    '
- *   stylesheets/sass/inputs/range.scss 14:40  @import
- *   stylesheets/sass/main.scss 15:9           root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "+", "-", "*", "/", or ")".\a    \2577 \a 14 \2502      $bottom-white-bar-value-2: calc(50 % (100 - #{$i}));\a    \2502                                         ^\a    \2575 \a   stylesheets/sass/inputs/range.scss 14:40  @import\a   stylesheets/sass/main.scss 15:9           root stylesheet';
+body, html {
+  font-family: sans-serif;
+  margin: 0;
 }
+
+.main,
+.header {
+  margin: 1rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.range__value--1::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 1%, #000 1%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--2::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 2%, #000 2%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--3::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 3%, #000 3%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--4::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 4%, #000 4%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--5::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 5%, #000 5%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--6::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 6%, #000 6%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--7::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 7%, #000 7%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--8::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 8%, #000 8%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--9::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 9%, #000 9%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--10::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 10%, #000 10%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--11::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 11%, #000 11%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--12::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 12%, #000 12%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--13::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 13%, #000 13%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--14::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 14%, #000 14%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--15::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 15%, #000 15%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--16::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 16%, #000 16%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--17::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 17%, #000 17%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--18::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 18%, #000 18%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--19::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 19%, #000 19%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--20::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 20%, #000 20%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--21::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 21%, #000 21%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--22::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 22%, #000 22%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--23::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 23%, #000 23%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--24::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 24%, #000 24%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--25::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 25%, #000 25%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--26::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 26%, #000 26%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--27::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 27%, #000 27%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--28::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 28%, #000 28%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--29::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 29%, #000 29%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--30::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 30%, #000 30%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--31::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 31%, #000 31%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--32::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 32%, #000 32%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--33::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 33%, #000 33%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--34::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 34%, #000 34%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--35::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 35%, #000 35%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--36::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 36%, #000 36%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--37::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 37%, #000 37%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--38::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 38%, #000 38%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--39::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 39%, #000 39%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--40::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 40%, #000 40%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--41::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 41%, #000 41%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--42::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 42%, #000 42%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--43::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 43%, #000 43%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--44::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 44%, #000 44%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--45::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 45%, #000 45%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--46::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 46%, #000 46%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--47::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 47%, #000 47%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--48::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 48%, #000 48%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--49::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 49%, #000 49%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--50::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 50%, #fff 50%, #fff) !important;
+}
+
+.range__value--51::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 51%, #000 51%, #000) !important;
+}
+
+.range__value--52::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 52%, #000 52%, #000) !important;
+}
+
+.range__value--53::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 53%, #000 53%, #000) !important;
+}
+
+.range__value--54::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 54%, #000 54%, #000) !important;
+}
+
+.range__value--55::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 55%, #000 55%, #000) !important;
+}
+
+.range__value--56::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 56%, #000 56%, #000) !important;
+}
+
+.range__value--57::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 57%, #000 57%, #000) !important;
+}
+
+.range__value--58::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 58%, #000 58%, #000) !important;
+}
+
+.range__value--59::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 59%, #000 59%, #000) !important;
+}
+
+.range__value--60::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 60%, #000 60%, #000) !important;
+}
+
+.range__value--61::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 61%, #000 61%, #000) !important;
+}
+
+.range__value--62::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 62%, #000 62%, #000) !important;
+}
+
+.range__value--63::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 63%, #000 63%, #000) !important;
+}
+
+.range__value--64::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 64%, #000 64%, #000) !important;
+}
+
+.range__value--65::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 65%, #000 65%, #000) !important;
+}
+
+.range__value--66::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 66%, #000 66%, #000) !important;
+}
+
+.range__value--67::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 67%, #000 67%, #000) !important;
+}
+
+.range__value--68::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 68%, #000 68%, #000) !important;
+}
+
+.range__value--69::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 69%, #000 69%, #000) !important;
+}
+
+.range__value--70::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 70%, #000 70%, #000) !important;
+}
+
+.range__value--71::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 71%, #000 71%, #000) !important;
+}
+
+.range__value--72::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 72%, #000 72%, #000) !important;
+}
+
+.range__value--73::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 73%, #000 73%, #000) !important;
+}
+
+.range__value--74::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 74%, #000 74%, #000) !important;
+}
+
+.range__value--75::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 75%, #000 75%, #000) !important;
+}
+
+.range__value--76::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 76%, #000 76%, #000) !important;
+}
+
+.range__value--77::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 77%, #000 77%, #000) !important;
+}
+
+.range__value--78::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 78%, #000 78%, #000) !important;
+}
+
+.range__value--79::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 79%, #000 79%, #000) !important;
+}
+
+.range__value--80::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 80%, #000 80%, #000) !important;
+}
+
+.range__value--81::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 81%, #000 81%, #000) !important;
+}
+
+.range__value--82::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 82%, #000 82%, #000) !important;
+}
+
+.range__value--83::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 83%, #000 83%, #000) !important;
+}
+
+.range__value--84::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 84%, #000 84%, #000) !important;
+}
+
+.range__value--85::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 85%, #000 85%, #000) !important;
+}
+
+.range__value--86::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 86%, #000 86%, #000) !important;
+}
+
+.range__value--87::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 87%, #000 87%, #000) !important;
+}
+
+.range__value--88::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 88%, #000 88%, #000) !important;
+}
+
+.range__value--89::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 89%, #000 89%, #000) !important;
+}
+
+.range__value--90::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 90%, #000 90%, #000) !important;
+}
+
+.range__value--91::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 91%, #000 91%, #000) !important;
+}
+
+.range__value--92::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 92%, #000 92%, #000) !important;
+}
+
+.range__value--93::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 93%, #000 93%, #000) !important;
+}
+
+.range__value--94::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 94%, #000 94%, #000) !important;
+}
+
+.range__value--95::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 95%, #000 95%, #000) !important;
+}
+
+.range__value--96::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 96%, #000 96%, #000) !important;
+}
+
+.range__value--97::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 97%, #000 97%, #000) !important;
+}
+
+.range__value--98::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 98%, #000 98%, #000) !important;
+}
+
+.range__value--99::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 99%, #000 99%, #000) !important;
+}
+
+.range__value--100::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #fff, #fff 100%, #000 100%, #000) !important;
+}
+
+.range__input-container {
+  margin: 20vh 0;
+}
+.range__input {
+  /* cross browser compat resets */
+  -moz-transform: rotate(90deg);
+  -webkit-appearance: none;
+  background: transparent;
+  transform: rotate(90deg);
+  width: 40vh;
+}
+.range__input::-webkit-slider-thumb {
+  background-image: url("../images/ball.svg");
+  transform: rotate(270deg);
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -1.5rem;
+  margin-left: -1rem;
+}
+.range__input:active::-webkit-slider-thumb {
+  background-image: none;
+  background-color: red;
+}
+.range__input::-moz-range-thumb {
+  background-image: url("../images/ball.svg");
+  transform: rotate(270deg);
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.range__input::-webkit-slider-runnable-track {
+  height: 1rem;
+  background: linear-gradient(90deg, #000, #000 50%, #fff 50%, #fff);
+  cursor: pointer;
+}
+.range__input::-moz-range-track {
+  height: 1rem;
+  background: linear-gradient(90deg, #000, #000 50%, #fff 50%, #fff);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
