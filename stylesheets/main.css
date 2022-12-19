@@ -13,403 +13,419 @@ body, html {
 }
 
 .range__value--2::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 2%, #000 2%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 2%, #000 2%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--3::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 3%, #000 3%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 3%, #000 3%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--4::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 4%, #000 4%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 4%, #000 4%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--5::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 5%, #000 5%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 5%, #000 5%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--6::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 6%, #000 6%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 6%, #000 6%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--7::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 7%, #000 7%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 7%, #000 7%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--8::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 8%, #000 8%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 8%, #000 8%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--9::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 9%, #000 9%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 9%, #000 9%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--10::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 10%, #000 10%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 10%, #000 10%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--11::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 11%, #000 11%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 11%, #000 11%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--12::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 12%, #000 12%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 12%, #000 12%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--13::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 13%, #000 13%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 13%, #000 13%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--14::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 14%, #000 14%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 14%, #000 14%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--15::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 15%, #000 15%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 15%, #000 15%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--16::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 16%, #000 16%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 16%, #000 16%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--17::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 17%, #000 17%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 17%, #000 17%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--18::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 18%, #000 18%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 18%, #000 18%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--19::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 19%, #000 19%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 19%, #000 19%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--20::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 20%, #000 20%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 20%, #000 20%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--21::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 21%, #000 21%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 21%, #000 21%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--22::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 22%, #000 22%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 22%, #000 22%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--23::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 23%, #000 23%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 23%, #000 23%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--24::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 24%, #000 24%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 24%, #000 24%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--25::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 25%, #000 25%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 25%, #000 25%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--26::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 26%, #000 26%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 26%, #000 26%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--27::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 27%, #000 27%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 27%, #000 27%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--28::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 28%, #000 28%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 28%, #000 28%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--29::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 29%, #000 29%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 29%, #000 29%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--30::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 30%, #000 30%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 30%, #000 30%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--31::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 31%, #000 31%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 31%, #000 31%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--32::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 32%, #000 32%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 32%, #000 32%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--33::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 33%, #000 33%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 33%, #000 33%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--34::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 34%, #000 34%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 34%, #000 34%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--35::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 35%, #000 35%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 35%, #000 35%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--36::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 36%, #000 36%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 36%, #000 36%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--37::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 37%, #000 37%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 37%, #000 37%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--38::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 38%, #000 38%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 38%, #000 38%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--39::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 39%, #000 39%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 39%, #000 39%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--40::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 40%, #000 40%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 40%, #000 40%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--41::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 41%, #000 41%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 41%, #000 41%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--42::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 42%, #000 42%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 42%, #000 42%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--43::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 43%, #000 43%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 43%, #000 43%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--44::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 44%, #000 44%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 44%, #000 44%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--45::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 45%, #000 45%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 45%, #000 45%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--46::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 46%, #000 46%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 46%, #000 46%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--47::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 47%, #000 47%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 47%, #000 47%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--48::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 48%, #000 48%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 48%, #000 48%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--49::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 49%, #000 49%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 49%, #000 49%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--50::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 50%, #fff 50%, #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 50%, #fff 50%, #fff) !important;
 }
 
 .range__value--51::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(51% - 50%), #000 calc(51% - 2%), #fff calc(51% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(51% - 50%), #000 calc(51% - 2%), #fff calc(51% - 2%), #fff) !important;
 }
 
 .range__value--52::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(52% - 50%), #000 calc(52% - 2%), #fff calc(52% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(52% - 50%), #000 calc(52% - 2%), #fff calc(52% - 2%), #fff) !important;
 }
 
 .range__value--53::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(53% - 50%), #000 calc(53% - 2%), #fff calc(53% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(53% - 50%), #000 calc(53% - 2%), #fff calc(53% - 2%), #fff) !important;
 }
 
 .range__value--54::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(54% - 50%), #000 calc(54% - 2%), #fff calc(54% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(54% - 50%), #000 calc(54% - 2%), #fff calc(54% - 2%), #fff) !important;
 }
 
 .range__value--55::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(55% - 50%), #000 calc(55% - 2%), #fff calc(55% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(55% - 50%), #000 calc(55% - 2%), #fff calc(55% - 2%), #fff) !important;
 }
 
 .range__value--56::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(56% - 50%), #000 calc(56% - 2%), #fff calc(56% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(56% - 50%), #000 calc(56% - 2%), #fff calc(56% - 2%), #fff) !important;
 }
 
 .range__value--57::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(57% - 50%), #000 calc(57% - 2%), #fff calc(57% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(57% - 50%), #000 calc(57% - 2%), #fff calc(57% - 2%), #fff) !important;
 }
 
 .range__value--58::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(58% - 50%), #000 calc(58% - 2%), #fff calc(58% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(58% - 50%), #000 calc(58% - 2%), #fff calc(58% - 2%), #fff) !important;
 }
 
 .range__value--59::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(59% - 50%), #000 calc(59% - 2%), #fff calc(59% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(59% - 50%), #000 calc(59% - 2%), #fff calc(59% - 2%), #fff) !important;
 }
 
 .range__value--60::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(60% - 50%), #000 calc(60% - 2%), #fff calc(60% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(60% - 50%), #000 calc(60% - 2%), #fff calc(60% - 2%), #fff) !important;
 }
 
 .range__value--61::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(61% - 50%), #000 calc(61% - 2%), #fff calc(61% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(61% - 50%), #000 calc(61% - 2%), #fff calc(61% - 2%), #fff) !important;
 }
 
 .range__value--62::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(62% - 50%), #000 calc(62% - 2%), #fff calc(62% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(62% - 50%), #000 calc(62% - 2%), #fff calc(62% - 2%), #fff) !important;
 }
 
 .range__value--63::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(63% - 50%), #000 calc(63% - 2%), #fff calc(63% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(63% - 50%), #000 calc(63% - 2%), #fff calc(63% - 2%), #fff) !important;
 }
 
 .range__value--64::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(64% - 50%), #000 calc(64% - 2%), #fff calc(64% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(64% - 50%), #000 calc(64% - 2%), #fff calc(64% - 2%), #fff) !important;
 }
 
 .range__value--65::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(65% - 50%), #000 calc(65% - 2%), #fff calc(65% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(65% - 50%), #000 calc(65% - 2%), #fff calc(65% - 2%), #fff) !important;
 }
 
 .range__value--66::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(66% - 50%), #000 calc(66% - 2%), #fff calc(66% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(66% - 50%), #000 calc(66% - 2%), #fff calc(66% - 2%), #fff) !important;
 }
 
 .range__value--67::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(67% - 50%), #000 calc(67% - 2%), #fff calc(67% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(67% - 50%), #000 calc(67% - 2%), #fff calc(67% - 2%), #fff) !important;
 }
 
 .range__value--68::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(68% - 50%), #000 calc(68% - 2%), #fff calc(68% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(68% - 50%), #000 calc(68% - 2%), #fff calc(68% - 2%), #fff) !important;
 }
 
 .range__value--69::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(69% - 50%), #000 calc(69% - 2%), #fff calc(69% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(69% - 50%), #000 calc(69% - 2%), #fff calc(69% - 2%), #fff) !important;
 }
 
 .range__value--70::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(70% - 50%), #000 calc(70% - 2%), #fff calc(70% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(70% - 50%), #000 calc(70% - 2%), #fff calc(70% - 2%), #fff) !important;
 }
 
 .range__value--71::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(71% - 50%), #000 calc(71% - 2%), #fff calc(71% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(71% - 50%), #000 calc(71% - 2%), #fff calc(71% - 2%), #fff) !important;
 }
 
 .range__value--72::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(72% - 50%), #000 calc(72% - 2%), #fff calc(72% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(72% - 50%), #000 calc(72% - 2%), #fff calc(72% - 2%), #fff) !important;
 }
 
 .range__value--73::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(73% - 50%), #000 calc(73% - 2%), #fff calc(73% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(73% - 50%), #000 calc(73% - 2%), #fff calc(73% - 2%), #fff) !important;
 }
 
 .range__value--74::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(74% - 50%), #000 calc(74% - 2%), #fff calc(74% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(74% - 50%), #000 calc(74% - 2%), #fff calc(74% - 2%), #fff) !important;
 }
 
 .range__value--75::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(75% - 50%), #000 calc(75% - 2%), #fff calc(75% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(75% - 50%), #000 calc(75% - 2%), #fff calc(75% - 2%), #fff) !important;
 }
 
 .range__value--76::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(76% - 50%), #000 calc(76% - 2%), #fff calc(76% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(76% - 50%), #000 calc(76% - 2%), #fff calc(76% - 2%), #fff) !important;
 }
 
 .range__value--77::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(77% - 50%), #000 calc(77% - 2%), #fff calc(77% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(77% - 50%), #000 calc(77% - 2%), #fff calc(77% - 2%), #fff) !important;
 }
 
 .range__value--78::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(78% - 50%), #000 calc(78% - 2%), #fff calc(78% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(78% - 50%), #000 calc(78% - 2%), #fff calc(78% - 2%), #fff) !important;
 }
 
 .range__value--79::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(79% - 50%), #000 calc(79% - 2%), #fff calc(79% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(79% - 50%), #000 calc(79% - 2%), #fff calc(79% - 2%), #fff) !important;
 }
 
 .range__value--80::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(80% - 50%), #000 calc(80% - 2%), #fff calc(80% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(80% - 50%), #000 calc(80% - 2%), #fff calc(80% - 2%), #fff) !important;
 }
 
 .range__value--81::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(81% - 50%), #000 calc(81% - 2%), #fff calc(81% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(81% - 50%), #000 calc(81% - 2%), #fff calc(81% - 2%), #fff) !important;
 }
 
 .range__value--82::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(82% - 50%), #000 calc(82% - 2%), #fff calc(82% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(82% - 50%), #000 calc(82% - 2%), #fff calc(82% - 2%), #fff) !important;
 }
 
 .range__value--83::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(83% - 50%), #000 calc(83% - 2%), #fff calc(83% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(83% - 50%), #000 calc(83% - 2%), #fff calc(83% - 2%), #fff) !important;
 }
 
 .range__value--84::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(84% - 50%), #000 calc(84% - 2%), #fff calc(84% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(84% - 50%), #000 calc(84% - 2%), #fff calc(84% - 2%), #fff) !important;
 }
 
 .range__value--85::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(85% - 50%), #000 calc(85% - 2%), #fff calc(85% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(85% - 50%), #000 calc(85% - 2%), #fff calc(85% - 2%), #fff) !important;
 }
 
 .range__value--86::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(86% - 50%), #000 calc(86% - 2%), #fff calc(86% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(86% - 50%), #000 calc(86% - 2%), #fff calc(86% - 2%), #fff) !important;
 }
 
 .range__value--87::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(87% - 50%), #000 calc(87% - 2%), #fff calc(87% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(87% - 50%), #000 calc(87% - 2%), #fff calc(87% - 2%), #fff) !important;
 }
 
 .range__value--88::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(88% - 50%), #000 calc(88% - 2%), #fff calc(88% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(88% - 50%), #000 calc(88% - 2%), #fff calc(88% - 2%), #fff) !important;
 }
 
 .range__value--89::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(89% - 50%), #000 calc(89% - 2%), #fff calc(89% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(89% - 50%), #000 calc(89% - 2%), #fff calc(89% - 2%), #fff) !important;
 }
 
 .range__value--90::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(90% - 50%), #000 calc(90% - 2%), #fff calc(90% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(90% - 50%), #000 calc(90% - 2%), #fff calc(90% - 2%), #fff) !important;
 }
 
 .range__value--91::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(91% - 50%), #000 calc(91% - 2%), #fff calc(91% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(91% - 50%), #000 calc(91% - 2%), #fff calc(91% - 2%), #fff) !important;
 }
 
 .range__value--92::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(92% - 50%), #000 calc(92% - 2%), #fff calc(92% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(92% - 50%), #000 calc(92% - 2%), #fff calc(92% - 2%), #fff) !important;
 }
 
 .range__value--93::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(93% - 50%), #000 calc(93% - 2%), #fff calc(93% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(93% - 50%), #000 calc(93% - 2%), #fff calc(93% - 2%), #fff) !important;
 }
 
 .range__value--94::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(94% - 50%), #000 calc(94% - 2%), #fff calc(94% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(94% - 50%), #000 calc(94% - 2%), #fff calc(94% - 2%), #fff) !important;
 }
 
 .range__value--95::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(95% - 50%), #000 calc(95% - 2%), #fff calc(95% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(95% - 50%), #000 calc(95% - 2%), #fff calc(95% - 2%), #fff) !important;
 }
 
 .range__value--96::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(96% - 50%), #000 calc(96% - 2%), #fff calc(96% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(96% - 50%), #000 calc(96% - 2%), #fff calc(96% - 2%), #fff) !important;
 }
 
 .range__value--97::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(97% - 50%), #000 calc(97% - 2%), #fff calc(97% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(97% - 50%), #000 calc(97% - 2%), #fff calc(97% - 2%), #fff) !important;
 }
 
 .range__value--98::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(98% - 50%), #000 calc(98% - 2%), #fff calc(98% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(98% - 50%), #000 calc(98% - 2%), #fff calc(98% - 2%), #fff) !important;
 }
 
 .range__value--99::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(99% - 50%), #000 calc(99% - 2%), #fff calc(99% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(99% - 50%), #000 calc(99% - 2%), #fff calc(99% - 2%), #fff) !important;
 }
 
 .range__value--100::-webkit-slider-runnable-track {
-  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000 calc(100% - 50%), #000 calc(100% - 2%), #fff calc(100% - 2%), #fff) !important;
+  background: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #646464 calc(100% - 50%), #000 calc(100% - 2%), #fff calc(100% - 2%), #fff) !important;
 }
 
 .range__input-container {
   margin: 20vh 0;
+}
+.range__backing {
+  margin-left: -12.6rem;
+  background-color: red;
+  width: 1rem;
+  height: 1rem;
+}
+.range__backing::after {
+  margin-left: 1.7rem;
+}
+.range__backing::before, .range__backing::after {
+  border: 3px solid black;
+  content: "";
+  position: absolute;
+  height: 2rem;
+  margin-top: -0.5rem;
 }
 .range__input {
   /* cross browser compat resets */
@@ -425,13 +441,15 @@ body, html {
   height: 4rem;
   width: 4rem;
   border-radius: 50%;
+  transition: 0.1s;
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -1.5rem;
 }
 .range__input:active::-webkit-slider-thumb {
-  background-image: none;
-  background-color: red;
+  height: 3.9rem;
+  width: 3.9rem;
+  margin-top: -1.4rem;
 }
 .range__input::-moz-range-thumb {
   background-image: url("../images/ball.svg");
@@ -439,16 +457,19 @@ body, html {
   height: 4rem;
   width: 4rem;
   border-radius: 50%;
+  transition: 0.1s;
   cursor: pointer;
 }
 .range__input::-webkit-slider-runnable-track {
   height: 1rem;
-  background: linear-gradient(90deg, #fff, #fff 5%, #000 5%, #000 50%, #fff 50%, #fff);
+  background: linear-gradient(90deg, #fff, #fff 5%, #000 5%, #646464 50%, #fff 50%, #fff);
+  transition: 0.1s;
   cursor: pointer;
 }
 .range__input::-moz-range-track {
   height: 1rem;
-  background: linear-gradient(90deg, #fff, #fff 5%, #000 5%, #000 50%, #fff 50%, #fff);
+  background: linear-gradient(90deg, #fff, #fff 5%, #000 5%, #646464 50%, #fff 50%, #fff);
+  transition: 0.1s;
   cursor: pointer;
 }
 
