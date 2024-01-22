@@ -35,6 +35,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '21.4.0'
+      - run: yarn install
       - run: yarn run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
