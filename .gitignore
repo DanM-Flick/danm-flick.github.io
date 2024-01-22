@@ -83,5 +83,5 @@ typings/
 dist
 
 # Gatsby files
-._site/
-.node_modules/
+_site/
+node_modules/
