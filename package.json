@@ -1,17 +1,15 @@
 {
-  "name": "danm-flick-github-pages",
+  "name": "danm-flick.github.io",
   "version": "1.0.0",
-  "description": "Personal playground for trying interaction things",
-  "author": "Flick Electric",
-  "repository": "https://github.com/DanM-Flick/danm-flick.github.io",
-  "license": "UNLICENSED",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "watch": "sass --watch stylesheets/sass/main.scss:stylesheets/main.css",
-    "build": "sass stylesheets/sass/main.scss:stylesheets/main.css --style compressed"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "sass": "^1.57.0"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
   }
 }
