@@ -4,5 +4,13 @@ layout: layouts/base.njk
 <h2 class="h2">{{ title }}</h2>
 <p class="description">{{ description }}</p>
 <p class="metadata"><span class="label">Originally added:</span> {{page.date | formattedDate}}</p>
+<div class="tags-container">
+  <span class="p label">Tags:</span>
+{%- for tag in tags -%}
+  {% if tag != "post" %}
+    <span class="tag tag--{{tag}}">{{ tag }}</span>
+  {% endif %}
+{%- endfor -%}
+</div>
 
 {{ content | safe }}

@@ -10,7 +10,8 @@ body {
   margin: 0;
 }
 
-p {
+p,
+.p {
   font-size: 1.15rem;
 }
 
@@ -79,6 +80,10 @@ p {
   -webkit-box-decoration-break: clone;
 }
 
+.tags-container {
+  margin-bottom: 2rem;
+}
+
 .tag {
   padding: .25rem;
   border-radius: 4px;
@@ -114,7 +119,7 @@ p {
   display: inline-block;
 }  
 
-.metadata .label {
+.label {
   font-weight: bold;
 }
 
