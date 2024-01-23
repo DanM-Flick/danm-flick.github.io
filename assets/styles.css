@@ -36,6 +36,7 @@ p {
 
 .post-list__link {
   text-decoration: none;
+  color: black;
 }
 
 .post-list__link:visited {
@@ -44,7 +45,6 @@ p {
 
 .post-list__item {
   background-color: white;
-  color: black;
   border: 3px solid black;
   border-radius: 6px;
   padding: 1rem;
