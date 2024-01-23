@@ -19,6 +19,10 @@ p {
   max-width: 1024px;
 }
 
+.post-list {
+  list-style: none;
+  padding: 0;
+}
 
 .h2 {
   font-family: TiltWarp-Regular, sans-serif;
