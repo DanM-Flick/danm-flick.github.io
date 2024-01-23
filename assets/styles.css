@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
 	font-family: TiltWarp-Regular;
 	src: url('./fonts/TiltWarp-Regular.ttf') format('truetype');
 	font-display: swap;
@@ -7,10 +7,15 @@
 body {
   font-family: sans-serif;
   letter-spacing: .25px;
+  margin: 0;
 }
 
 p {
   font-size: 1.15rem;
+}
+
+.small {
+  font-size: 1rem;
 }
 
 .layout {
@@ -32,18 +37,39 @@ p {
   text-decoration: none;
 }
 
+.post-list__link:visited {
+  color: black;
+}
+
+.post-list__link:visited {
+  color: black;
+}
+
 .post-list__item {
-  border: 2px solid black;
-  border-radius: 4px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 6px;
   padding: 1rem;
+  box-shadow: 5px 5px 0px black;
+  transition: background .5s, border-color .5s, box-shadow .5s, margin .5s;
+  transition-timing-function: cubic-bezier(.25, 1, .30, 1);
+}
+
+.post-list__item:hover {
+  background: #e2fee6;
+  box-shadow: 10px 10px 0px black;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+
+.post-list__item:active {
+  margin-left: 5px;
+  margin-top: 5px;  
+  box-shadow: none;
 }
 
 .post-list__title {
   margin-top: 0;  
-}
-
-.post-list__description {
-  margin-bottom: 0;
 }
 
 .tag {

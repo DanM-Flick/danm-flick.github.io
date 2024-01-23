@@ -4,12 +4,13 @@
 		<div class="post-list__item">
 			<a class="post-list__link" href="{{post.url}}" >
 				<p class="h3 post-list__title">{{ post.data.title }}</p>
+				<p class="small">{{ post.date | formattedDate }}</p>
+				<p class="post-list__description">{{ post.data.description }}</p>
 				{%- for tag in post.data.tags -%}
 					{% if tag != "post" %}
 						<span class="tag tag--{{tag}}">{{ tag }}</span>
 					{% endif %}
 				{%- endfor -%}
-				<p class="post-list__description">{{ post.data.description }}</p>
 			</a>
 		</div>
 	</li>

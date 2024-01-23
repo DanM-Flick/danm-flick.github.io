@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 <h2 class="h2">Home</h2>
-{% set postslist = collections.post  %}
+{% set postslist = collections.recentPosts  %}
 {% set postslistCounter = postsCount %}
 
 {% include "postList.njk" %}

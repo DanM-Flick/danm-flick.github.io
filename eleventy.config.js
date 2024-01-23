@@ -10,6 +10,11 @@ module.exports = function(eleventyConfig) {
 		return format(dateObj, 'MM/dd/yyyy')
 	})
 
+	// collections
+	eleventyConfig.addCollection("recentPosts", function(collectionApi) {
+    return collectionApi.getFilteredByTag("post").slice(0, 6);
+  });
+
 	return {
 		dir: {
 			input: "content",
