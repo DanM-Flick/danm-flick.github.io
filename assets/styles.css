@@ -22,6 +22,7 @@ p {
   margin: 0 auto; 
   padding: 2rem 1rem;
   max-width: 1024px;
+  margin-bottom: 2rem;
 }
 
 .post-list {
@@ -89,17 +90,17 @@ p {
 
 .h2 {
   font-family: TiltWarp-Regular, sans-serif;
-  font-size: 65px;
+  font-size: 4rem;
   margin: 1rem 0 .5rem;
 }
 
 .h3 {
   font-family: TiltWarp-Regular, sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .description {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   margin: 0.5rem 0;
 }
@@ -173,5 +174,32 @@ p {
 
 .header__nav-item a.nav-icon:active .goose--active {
   animation: .25s cubic-bezier(.25, 1, .30, 1) wipe-in-up both;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+
+/* screen size adjustments */
+@media only screen and (max-width: 740px) {
+  .h2 {
+    font-size: 3.25rem;
+  }
+
+  .post-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .h2 {
+    font-size: 2.625rem;
+  }
+
+  .post-list {
+    grid-template-columns: 1fr;
+  }
 }
 
