@@ -1,7 +1,9 @@
 ---
 layout: layouts/base.njk
 ---
-<h2 class="h2">Home</h2>
+<h2 class="h2">All posts</h2>
+{% set postsCount = collections.post | length %}
+
 {% set postslist = collections.post  %}
 {% set postslistCounter = postsCount %}
 

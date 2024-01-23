@@ -1,6 +1,8 @@
 ---
 layout: layouts/base.njk
 ---
-<h1>{{ title }}</h1>
+<h2 class="h2">{{ title }}</h2>
+<p class="description">{{ description }}</p>
+<p class="metadata"><span class="label">Originally added:</span> {{page.date | formattedDate}}</p>
 
 {{ content | safe }}
