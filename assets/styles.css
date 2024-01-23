@@ -22,12 +22,49 @@ p {
 .post-list {
   list-style: none;
   padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
+
+.post-list__link {
+  text-decoration: none;
+}
+
+.post-list__item {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.post-list__title {
+  margin-top: 0;  
+}
+
+.post-list__description {
+  margin-bottom: 0;
+}
+
+.tag {
+  padding: .25rem;
+  border-radius: 4px;
+  background-color: grey;
+}
+.tag:not(:last-of-type) {
+  margin-right: .5rem;
+}
+
 
 .h2 {
   font-family: TiltWarp-Regular, sans-serif;
   font-size: 65px;
   margin: 1rem 0 .5rem;
+}
+
+.h3 {
+  font-family: TiltWarp-Regular, sans-serif;
+  font-size: 20px;
 }
 
 .description {
