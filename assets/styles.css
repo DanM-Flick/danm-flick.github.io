@@ -125,3 +125,53 @@ p {
 	white-space: nowrap;
 	width: 1px;
 }
+
+.header__nav-item-list {
+  margin-top: 0;
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__nav-item {
+  margin: 0 1rem;
+  font-family: TiltWarp-Regular, sans-serif;
+  font-size: 1.25rem;
+}
+
+.header__nav-item a {
+  text-decoration: none;
+  color: black;
+  transition: box-shadow .15s, clip-path .65s;
+  transition-timing-function: cubic-bezier(.25, 1, .30, 1);
+}
+
+
+.header__nav-item a:not(.nav-icon):hover {
+  box-shadow: 0px 4px 0px black;
+}
+
+.goose {
+  height: 3rem;
+  cursor: pointer;
+}
+
+@keyframes wipe-in-up {
+  from {
+    clip-path: inset(100% 0 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.goose--active {
+  clip-path: inset(100% 0 0 0);
+}
+
+.header__nav-item a.nav-icon:active .goose--active {
+  animation: .25s cubic-bezier(.25, 1, .30, 1) wipe-in-up both;
+}
+

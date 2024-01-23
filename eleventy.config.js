@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
 	// assets
 	eleventyConfig.addPassthroughCopy("./assets/styles.css");
 	eleventyConfig.addPassthroughCopy("./assets/fonts/");
+	eleventyConfig.addPassthroughCopy("./assets/images/");
 	
 	// filters
 	eleventyConfig.addFilter("formattedDate", dateObj => {
