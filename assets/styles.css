@@ -92,6 +92,13 @@ p,
 .tag:not(:last-of-type) {
   margin-right: .5rem;
 }
+.tag--rails {
+  background-color: #CC342D;
+  color: white;
+}
+.tag--javascript {
+  background-color: #fcdc00;
+}
 
 
 .h2 {
